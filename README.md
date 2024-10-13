@@ -34,7 +34,7 @@ cmake .
 
 Then:
 ```bash
-Makefile
+make
 ```
 
 will build the executable `SudokuSolver`.
