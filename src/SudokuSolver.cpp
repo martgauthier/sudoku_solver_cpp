@@ -17,9 +17,7 @@ SudokuSolver::SudokuSolver(Sudoku _sudoku) : sudoku{_sudoku} {}
 void SudokuSolver::solveAndPrint() {
     SearchNode current{UNDEFINED_PARENT_PTR, getNextBlankCell()};
 
-    #ifdef _W32
     activateVirtualTerminal();
-    #endif
 
     clearTerminal();
 
