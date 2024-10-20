@@ -26,11 +26,12 @@ or
 ```
 
 # Compilation
+## Linux
 To get the `Makefile`, run: 
 ```bash
 cmake .
 ```
-(or `cmake chemin_vers_le_dossier` to compile from another folder)
+(or `cmake path_to_the_folder` to compile from another folder)
 
 Then:
 ```bash
@@ -38,3 +39,10 @@ make
 ```
 
 will build the executable `SudokuSolver`.
+
+## Windows
+The easiest way to compile it is creating a Visual Studio project, with cmake :
+```bash
+cmake .
+```
+Open the `.sln` project file created after this command, and run the executable using Visual Studio.
